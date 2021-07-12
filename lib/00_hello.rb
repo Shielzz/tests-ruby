@@ -1,13 +1,7 @@
 def hello
-	print "Hello!"
+	"Hello!"
 end
-
-print "Hi, your name please: "
-name = gets.chomp
 
 def greet(name)
-	puts "Hello, #{name}!"
+	"Hello, #{name}!"
 end
-
-greet(name)
-
